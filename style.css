@@ -154,3 +154,52 @@ body {
   margin-top: 2em;
   display: inline-block;
 }
+
+/* Projects Section */
+
+.projects {
+  margin-top: 6em;
+}
+
+.projects__title {
+  text-align: center;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.slideshow-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.arrow {
+  background: #030303;
+  padding: 1em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

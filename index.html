@@ -83,16 +83,36 @@
 
     <section class="projects">
       <h2 class="projects__title">My Work</h2>
-      <div class="images-slider">
-        <img src="./assets/image-slide-1.jpg" alt="" />
-        <img src="./assets/image-slide-2.jpg" alt="" />
-        <img src="./assets/image-slide-3.jpg" alt="" />
-        <img src="./assets/image-slide-4.jpg" alt="" />
-        <img src="./assets/image-slide-5.jpg" alt="" />
+      <div class="slideshow-container">
+        <div class="slide fade">
+          <img src="./assets/image-slide-1.jpg" alt="" />
+        </div>
+        <div class="slide fade">
+          <img src="./assets/image-slide-2.jpg" alt="" />
+        </div>
+        <div class="slide fade">
+          <img src="./assets/image-slide-3.jpg" alt="" />
+        </div>
+        <div class="slide fade">
+          <img src="./assets/image-slide-4.jpg" alt="" />
+        </div>
+        <div class="slide fade">
+          <img src="./assets/image-slide-5.jpg" alt="" />
+        </div>
       </div>
-      <div class="slider-buttons">
-        <img src="./assets/icon-arrow-left.svg" alt="" />
-        <img src="./assets/icon-arrow-right.svg" alt="" />
+      <div class="slideshow-buttons">
+        <img
+          class="arrow prev"
+          id="prev"
+          src="./assets/icon-arrow-left.svg"
+          alt=""
+        />
+        <img
+          class="arrow next"
+          id="next"
+          src="./assets/icon-arrow-right.svg"
+          alt=""
+        />
       </div>
     </section>
 
@@ -111,5 +131,6 @@
         <a href="#" class="btn btn--primary">Free Consultation</a>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
