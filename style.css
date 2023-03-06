@@ -38,6 +38,7 @@ body {
   text-decoration: none;
   cursor: pointer;
   color: #fff7f0;
+  display: inline-block;
 }
 
 .btn--primary {
@@ -70,8 +71,9 @@ body {
 /* Skills Section */
 
 .hero__skills {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 160px);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(6, 182px);
   gap: 1.5em;
 }
@@ -202,4 +204,37 @@ body {
   to {
     opacity: 1;
   }
+}
+
+/* CTA Section */
+
+.cta-banner {
+  background: #030303;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 6em;
+  padding: 3em 1.5em;
+  text-align: center;
+  color: #fff7f0;
+}
+
+.cta__title {
+  font-size: 1.625rem;
+  margin: 0;
+}
+
+.cta__body {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+}
+
+/* Footer Section */
+
+footer {
+  margin: 2.5em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
